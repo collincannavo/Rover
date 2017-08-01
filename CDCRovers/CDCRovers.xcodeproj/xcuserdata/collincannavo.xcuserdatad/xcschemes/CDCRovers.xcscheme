@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B656F6471F02EB9900D7ADDB"
-               BuildableName = "Rover.app"
-               BlueprintName = "Rover"
-               ReferencedContainer = "container:Rover.xcodeproj">
+               BlueprintIdentifier = "B63D85E91F0C8511000B6082"
+               BuildableName = "CDCRovers.app"
+               BlueprintName = "CDCRovers"
+               ReferencedContainer = "container:CDCRovers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B656F6471F02EB9900D7ADDB"
-            BuildableName = "Rover.app"
-            BlueprintName = "Rover"
-            ReferencedContainer = "container:Rover.xcodeproj">
+            BlueprintIdentifier = "B63D85E91F0C8511000B6082"
+            BuildableName = "CDCRovers.app"
+            BlueprintName = "CDCRovers"
+            ReferencedContainer = "container:CDCRovers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B656F6471F02EB9900D7ADDB"
-            BuildableName = "Rover.app"
-            BlueprintName = "Rover"
-            ReferencedContainer = "container:Rover.xcodeproj">
+            BlueprintIdentifier = "B63D85E91F0C8511000B6082"
+            BuildableName = "CDCRovers.app"
+            BlueprintName = "CDCRovers"
+            ReferencedContainer = "container:CDCRovers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B656F6471F02EB9900D7ADDB"
-            BuildableName = "Rover.app"
-            BlueprintName = "Rover"
-            ReferencedContainer = "container:Rover.xcodeproj">
+            BlueprintIdentifier = "B63D85E91F0C8511000B6082"
+            BuildableName = "CDCRovers.app"
+            BlueprintName = "CDCRovers"
+            ReferencedContainer = "container:CDCRovers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

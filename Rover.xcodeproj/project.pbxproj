@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		B656F64D1F02EB9900D7ADDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F64C1F02EB9900D7ADDB /* main.m */; };
 		B656F6501F02EB9900D7ADDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F64F1F02EB9900D7ADDB /* AppDelegate.m */; };
-		B656F6531F02EB9900D7ADDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F6521F02EB9900D7ADDB /* ViewController.m */; };
 		B656F6561F02EB9900D7ADDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B656F6541F02EB9900D7ADDB /* Main.storyboard */; };
 		B656F6581F02EB9900D7ADDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B656F6571F02EB9900D7ADDB /* Assets.xcassets */; };
 		B656F65B1F02EB9900D7ADDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B656F6591F02EB9900D7ADDB /* LaunchScreen.storyboard */; };
+		B656F66A1F02ED8800D7ADDB /* Rover.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F6691F02ED8800D7ADDB /* Rover.m */; };
+		B656F66D1F02EFFC00D7ADDB /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F66C1F02EFFC00D7ADDB /* Photo.m */; };
+		B656F6701F02F0BA00D7ADDB /* SolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F66F1F02F0BA00D7ADDB /* SolDescription.m */; };
+		B656F6731F02F94F00D7ADDB /* CDCMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F6721F02F94F00D7ADDB /* CDCMarsRoverClient.m */; };
+		B656F6751F03011800D7ADDB /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = B656F6741F03011800D7ADDB /* APIKeys.plist */; };
+		B656F6891F032CD000D7ADDB /* CDCRoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = B656F6881F032CD000D7ADDB /* CDCRoverController.m */; };
+		B656F6A11F0443AC00D7ADDB /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B656F6A01F0443AC00D7ADDB /* NetworkController.swift */; };
+		B6F33B3F1F0452370035A2A1 /* CDCRoversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F33B3E1F0452370035A2A1 /* CDCRoversTableViewController.m */; };
+		B6F33B421F0452550035A2A1 /* CDCSolsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F33B411F0452550035A2A1 /* CDCSolsTableViewController.m */; };
+		B6F33B451F0452720035A2A1 /* CDCPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F33B441F0452720035A2A1 /* CDCPhotosCollectionViewController.m */; };
+		B6F33B481F04528B0035A2A1 /* CDCPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F33B471F04528B0035A2A1 /* CDCPhotoCollectionViewCell.m */; };
+		B6F33B4B1F0452A90035A2A1 /* CDCPhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F33B4A1F0452A90035A2A1 /* CDCPhotoDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,33 @@
 		B656F64C1F02EB9900D7ADDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B656F64E1F02EB9900D7ADDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B656F64F1F02EB9900D7ADDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B656F6511F02EB9900D7ADDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B656F6521F02EB9900D7ADDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B656F6551F02EB9900D7ADDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B656F6571F02EB9900D7ADDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B656F65A1F02EB9900D7ADDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B656F65C1F02EB9900D7ADDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B656F6681F02ED8800D7ADDB /* Rover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rover.h; sourceTree = "<group>"; };
+		B656F6691F02ED8800D7ADDB /* Rover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rover.m; sourceTree = "<group>"; };
+		B656F66B1F02EFFC00D7ADDB /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		B656F66C1F02EFFC00D7ADDB /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		B656F66E1F02F0BA00D7ADDB /* SolDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolDescription.h; sourceTree = "<group>"; };
+		B656F66F1F02F0BA00D7ADDB /* SolDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolDescription.m; sourceTree = "<group>"; };
+		B656F6711F02F94F00D7ADDB /* CDCMarsRoverClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCMarsRoverClient.h; sourceTree = "<group>"; };
+		B656F6721F02F94F00D7ADDB /* CDCMarsRoverClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCMarsRoverClient.m; sourceTree = "<group>"; };
+		B656F6741F03011800D7ADDB /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = APIKeys.plist; path = "../../../../../Downloads/Rover-master/Sources/APIKeys.plist"; sourceTree = "<group>"; };
+		B656F6871F032CD000D7ADDB /* CDCRoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCRoverController.h; sourceTree = "<group>"; };
+		B656F6881F032CD000D7ADDB /* CDCRoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCRoverController.m; sourceTree = "<group>"; };
+		B656F6A01F0443AC00D7ADDB /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		B656F6A21F04442800D7ADDB /* Rover-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rover-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6F33B3D1F0452370035A2A1 /* CDCRoversTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCRoversTableViewController.h; sourceTree = "<group>"; };
+		B6F33B3E1F0452370035A2A1 /* CDCRoversTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCRoversTableViewController.m; sourceTree = "<group>"; };
+		B6F33B401F0452550035A2A1 /* CDCSolsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCSolsTableViewController.h; sourceTree = "<group>"; };
+		B6F33B411F0452550035A2A1 /* CDCSolsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCSolsTableViewController.m; sourceTree = "<group>"; };
+		B6F33B431F0452720035A2A1 /* CDCPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		B6F33B441F0452720035A2A1 /* CDCPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		B6F33B461F04528B0035A2A1 /* CDCPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		B6F33B471F04528B0035A2A1 /* CDCPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		B6F33B491F0452A90035A2A1 /* CDCPhotoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCPhotoDetailsViewController.h; sourceTree = "<group>"; };
+		B6F33B4A1F0452A90035A2A1 /* CDCPhotoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCPhotoDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +90,14 @@
 		B656F64A1F02EB9900D7ADDB /* Rover */ = {
 			isa = PBXGroup;
 			children = (
-				B656F64E1F02EB9900D7ADDB /* AppDelegate.h */,
-				B656F64F1F02EB9900D7ADDB /* AppDelegate.m */,
-				B656F6511F02EB9900D7ADDB /* ViewController.h */,
-				B656F6521F02EB9900D7ADDB /* ViewController.m */,
-				B656F6541F02EB9900D7ADDB /* Main.storyboard */,
-				B656F6571F02EB9900D7ADDB /* Assets.xcassets */,
-				B656F6591F02EB9900D7ADDB /* LaunchScreen.storyboard */,
-				B656F65C1F02EB9900D7ADDB /* Info.plist */,
+				B656F6831F03186B00D7ADDB /* Views */,
+				B656F6661F02EBD000D7ADDB /* ViewController */,
+				B656F6651F02EBCB00D7ADDB /* ModelController */,
+				B656F6641F02EBC700D7ADDB /* Model */,
+				B656F6621F02EBB100D7ADDB /* Storyboards */,
 				B656F64B1F02EB9900D7ADDB /* Supporting Files */,
+				B656F6791F03108400D7ADDB /* NetworkController */,
+				B656F6631F02EBBB00D7ADDB /* Resources */,
 			);
 			path = Rover;
 			sourceTree = "<group>";
@@ -77,6 +108,84 @@
 				B656F64C1F02EB9900D7ADDB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B656F6621F02EBB100D7ADDB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B656F6541F02EB9900D7ADDB /* Main.storyboard */,
+				B656F6591F02EB9900D7ADDB /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B656F6631F02EBBB00D7ADDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B656F64E1F02EB9900D7ADDB /* AppDelegate.h */,
+				B656F64F1F02EB9900D7ADDB /* AppDelegate.m */,
+				B656F6571F02EB9900D7ADDB /* Assets.xcassets */,
+				B656F65C1F02EB9900D7ADDB /* Info.plist */,
+				B656F6741F03011800D7ADDB /* APIKeys.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B656F6641F02EBC700D7ADDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B656F6681F02ED8800D7ADDB /* Rover.h */,
+				B656F6691F02ED8800D7ADDB /* Rover.m */,
+				B656F66B1F02EFFC00D7ADDB /* Photo.h */,
+				B656F66C1F02EFFC00D7ADDB /* Photo.m */,
+				B656F66E1F02F0BA00D7ADDB /* SolDescription.h */,
+				B656F66F1F02F0BA00D7ADDB /* SolDescription.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B656F6651F02EBCB00D7ADDB /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				B656F6871F032CD000D7ADDB /* CDCRoverController.h */,
+				B656F6881F032CD000D7ADDB /* CDCRoverController.m */,
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+		B656F6661F02EBD000D7ADDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6F33B491F0452A90035A2A1 /* CDCPhotoDetailsViewController.h */,
+				B6F33B4A1F0452A90035A2A1 /* CDCPhotoDetailsViewController.m */,
+				B6F33B3D1F0452370035A2A1 /* CDCRoversTableViewController.h */,
+				B6F33B3E1F0452370035A2A1 /* CDCRoversTableViewController.m */,
+				B6F33B401F0452550035A2A1 /* CDCSolsTableViewController.h */,
+				B6F33B411F0452550035A2A1 /* CDCSolsTableViewController.m */,
+				B6F33B431F0452720035A2A1 /* CDCPhotosCollectionViewController.h */,
+				B6F33B441F0452720035A2A1 /* CDCPhotosCollectionViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B656F6791F03108400D7ADDB /* NetworkController */ = {
+			isa = PBXGroup;
+			children = (
+				B656F6711F02F94F00D7ADDB /* CDCMarsRoverClient.h */,
+				B656F6721F02F94F00D7ADDB /* CDCMarsRoverClient.m */,
+				B656F6A01F0443AC00D7ADDB /* NetworkController.swift */,
+				B656F6A21F04442800D7ADDB /* Rover-Bridging-Header.h */,
+			);
+			name = NetworkController;
+			sourceTree = "<group>";
+		};
+		B656F6831F03186B00D7ADDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6F33B461F04528B0035A2A1 /* CDCPhotoCollectionViewCell.h */,
+				B6F33B471F04528B0035A2A1 /* CDCPhotoCollectionViewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +220,7 @@
 					B656F6471F02EB9900D7ADDB = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = X458A5BXZ4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B656F65B1F02EB9900D7ADDB /* LaunchScreen.storyboard in Resources */,
+				B656F6751F03011800D7ADDB /* APIKeys.plist in Resources */,
 				B656F6581F02EB9900D7ADDB /* Assets.xcassets in Resources */,
 				B656F6561F02EB9900D7ADDB /* Main.storyboard in Resources */,
 			);
@@ -151,9 +262,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B656F6531F02EB9900D7ADDB /* ViewController.m in Sources */,
+				B656F66D1F02EFFC00D7ADDB /* Photo.m in Sources */,
+				B656F6891F032CD000D7ADDB /* CDCRoverController.m in Sources */,
+				B656F66A1F02ED8800D7ADDB /* Rover.m in Sources */,
+				B656F6A11F0443AC00D7ADDB /* NetworkController.swift in Sources */,
+				B6F33B451F0452720035A2A1 /* CDCPhotosCollectionViewController.m in Sources */,
+				B656F6701F02F0BA00D7ADDB /* SolDescription.m in Sources */,
+				B6F33B481F04528B0035A2A1 /* CDCPhotoCollectionViewCell.m in Sources */,
+				B6F33B421F0452550035A2A1 /* CDCSolsTableViewController.m in Sources */,
+				B656F6731F02F94F00D7ADDB /* CDCMarsRoverClient.m in Sources */,
+				B6F33B3F1F0452370035A2A1 /* CDCRoversTableViewController.m in Sources */,
 				B656F6501F02EB9900D7ADDB /* AppDelegate.m in Sources */,
 				B656F64D1F02EB9900D7ADDB /* main.m in Sources */,
+				B6F33B4B1F0452A90035A2A1 /* CDCPhotoDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +396,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X458A5BXZ4;
 				INFOPLIST_FILE = Rover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.collincannavo.Rover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rover/Rover-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -287,11 +412,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X458A5BXZ4;
 				INFOPLIST_FILE = Rover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.collincannavo.Rover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rover/Rover-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -314,6 +442,7 @@
 				B656F6611F02EB9900D7ADDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
